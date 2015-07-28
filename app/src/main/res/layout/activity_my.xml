@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyActivity">
+
+<TextView
+   android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Deepti"
+    android:layout_marginBottom="15dp"
+    android:layout_gravity="center"
+    android:textSize="20dp"
+    android:layout_marginTop="40dp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="15dp"
+    android:text="Source : ASHWATH NAGAR\nDestination : BMSIT\nDeparture Time: 7:30
+Pay : No\nMAX People : 2\nTrack : Yes"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Show Details"
+      />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kavitha"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Source : SHIVAJI NAGAR\nDestination : R T NAGAR\nDeparture Time: 7:30
+Pay : No\nMAX People : 3\nTrack : No"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Show Details"
+        />
+
+
+</LinearLayout>
